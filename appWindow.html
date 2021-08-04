@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/document.css" type="text/css" />
+    <link rel="stylesheet" href="style/clock.css" type="text/css" />
+    <link rel="stylesheet" href="style/weather.css" type="text/css" />
+    <link rel="stylesheet" href="style/video.css" type="text/css" />
+    <link rel="stylesheet" href="style/alarm.css" type="text/css" />
+    <link rel="stylesheet" href="style/start_recovery.css" type="text/css" />
+    <link rel="stylesheet" href="style/recovery_text.css" type="text/css" />
+    <link rel="stylesheet" href="style/feedback.css" type="text/css" />
+    <link rel="stylesheet" href="style/mesajMotivational.css" type="text/css" />
+    <link rel="stylesheet" href="style/data.css" type="text/css" />
+
+
+    
+    <title>Smart Mirror</title>
+
+</head>
+<body>
+<div id="docHTML">
+   
+    <div id="container__left">
+
+        <div class="clock">
+
+            <div id="MyClockDisplay" class="clockk" onload="displayTime()"></div>
+            
+        </div>
+
+        <h2 class="dataDeAzi"><span id="dataDeAzi"></span></h2>
+        <script src="JavaScript/clock.js"></script>
+
+        
+        <!--aici am adaugat vremea-->
+
+        <main>
+
+            <!---codul din interior apare la call-ul pe site-ul de vreme in momentul in care ruleaza aplicatia -->
+
+        </main>
+        
+    <script src="JavaScript/weather.js"></script>
+ 
+        <!-- citate motivaționale -->
+
+        <div class="mesaj">
+
+         <h1 class="mesaje"><span id="mesaje"></span></h1>
+    
+        </div>
+        
+    </div>
+
+    <div id="container__right">
+
+        <!--aici o sa adaug clipurile -->
+
+        <div class="recovery_text">
+
+            <h3 class="text">RECOVERY DAY :  <span id="recovery-day"></span></h3>
+
+
+        </div>
+
+
+
+        <div class="video-and-buttons">
+
+            <div class="player">
+                <video class="player__video viewer" src="video/video1.mp4" controls  >
+                
+                </video>
+            </div>
+
+            <div class="Buttons">
+                <button class="btnPrevious">
+                <h2><span class="pbtn">PREVIOUS VIDEO</span></h2>
+                </button>
+                <button class="btnNext">
+                <h2><span class="nbtn">NEXT VIDEO</span></h2>
+                </button>
+            </div>
+
+        </div>
+        <script src="JavaScript/video.js"></script> 
+
+        <div class="stopwatch">
+            <div class="controls">
+                <button class="start">
+                    <h3><span class="startSpan">START ALARM</span></h3>
+                </button>
+                <button class="reset">
+                   <h3> <span class="stopSpan">STOP ALARM</span></h3>
+                </button>
+                <button class="stop"></button> 
+                <div class="display">
+                <h3><span class="minutes">00 :</span></h3>
+                <h3><span class="seconds"> 00</span></h3>
+                <h3><span class="centiseconds">00</span></h3>
+                </div>
+                
+            </div>
+        </div>
+
+        <div id="feedbackDiv" class="feedback">
+            
+            <div class="btn-group">
+            <h2>Daily feedback:</h2>
+            <button id="1" value="Fara durere">Fără durere</button>
+            <button id="2" value="Durere usoara">Durere ușoară</button>
+            <button id="3" value="Durere Moderata">Durere moderată</button>
+            <button id="4" value="Durere greu suportabila">Durere greu suportabilă</button>
+            </div>
+        
+        </div>
+
+        <script src="JavaScript/alarm.js"></script>
+       <!--- <script src="JavaScript/start_recovery.js"></script>-->
+        <script src="JavaScript/feedbackShowHide.js"></script>
+        
+        
+        <script src="JavaScript/mesaje.js"></script>
+         <script src="JavaScript/data.js"></script>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--- <script data-main="main" src="require.js"></script> -->
+
+    
+    <title>Smart Mirror</title>
+
+</head>
+<body>
+    <style>
+        .user-detail {
+         height: 100vh;
+         border: 2px solid #f1f1f1; 
+         padding: 16px; 
+         background-color: white; 
+         width: 30%;
+        } 
+        input{ 
+         width: 100%; 
+         padding: 15px;
+         margin: 5px 0 22px 0; 
+         display: inline-block; 
+         border: none; 
+         background: #f1f1f1;
+        } 
+        input[type=text]:focus, input[type=password]:focus { 
+         background-color: #ddd;
+         outline: none;
+        } 
+        button[type=submit] { 
+         background-color: #434140; 
+         color: #ffffff; 
+         padding: 10px 20px; 
+         margin: 8px 0; 
+         border: none; 
+         cursor: pointer; 
+         width: 100%; 
+         opacity: 0.9; 
+         font-size: 20px;
+        } 
+        label{ 
+         font-size: 18px;
+        } 
+        button[type=submit]:hover { 
+         background-color:#3d3c3c;
+        } 
+        </style>
+
+            <div class="user-detail">
+                <h2>Create User Data</h2>
+                <form action="routes/users/create" method="POST">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter Full Name" name="fullName" required>
+                    <label>Email Address</label>
+                    <input type="email" placeholder="Enter Email Address" name="emailAddress" required>
+                    <label>City</label>
+                    <input type="city" placeholder="Enter Full City" name="city" required>
+                    <label>Country</label>
+                    <input type="text" placeholder="Enter Full Country" name="country" required>
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+          
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Bucatariu Mihaela Adelina",
+  "license": "MIT",
+  "dependencies": {
+    "chrome": "^0.1.0",
+    "connect": "^3.7.0",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.0.0",
+    "cryptr": "^6.0.2",
+    "decrypt": "0.0.1",
+    "dialog": "^0.3.1",
+    "document": "^0.4.7",
+    "electron": "^11.0.3",
+    "electron-require": "^0.3.0",
+    "export": "^0.1.337",
+    "express": "^4.17.1",
+    "import": "0.0.6",
+    "jquery": "^3.5.1",
+    "mysql": "github:mysqljs/mysql",
+    "mysql-import": "^4.0.24",
+    "nodemailer": "^6.4.17",
+    "os-utils": "0.0.14",
+    "query-selector": "^2.0.0",
+    "remote": "^0.2.6",
+    "require": "^2.4.20",
+    "requirejs": "^2.3.6",
+    "salt": "^0.5.5"
+  },
+  "devDependencies": {
+    "use": "^3.1.1"
+  }
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap'); 
+
+body {
+    color: rgb(61, 61, 61);
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+}
+
+header {
+    height: 400px;
+}
+
+header h1 {
+    font-size: 95px;
+    line-height: 95px;
+    padding-left: 20%;
+}
+
+header p {
+    padding-left: 20%;
+    margin-top: -20px;
+}
+
+#hero {
+    position: absolute;
+    z-index: -1;
+    width: 500px;
+    top: 6%;
+    right: 10%;
+}
+main {
+    padding-bottom: 120px;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}
+
+#conditions {
+    margin-top: 0px;
+  
+}
+
+
+#conditions h4, #conditions h2{
+    margin: 0px;
+    color: gray;
+}
+
+#conditions h4 {
+    margin-top: 30px;
+}
+
+#conditions h2 {
+    margin-bottom: 30px;
+}
+#conditions div {
+    color: gray;
+}
+#conditions img {
+    padding: 0mm;
+    box-shadow: 0 0 50px 50px black inset;
+    border-radius: 50%;
+}
+

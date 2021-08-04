@@ -1,0 +1,81 @@
+.stopwatch{
+    flex-direction: column;
+    align-items: center;
+    display: inline;
+    
+    
+
+}
+.controls button{
+    color:white;
+    float: right;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: bottom;
+    width: 100px;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    background: transparent;
+    border: transparent;
+    justify-content: right;
+    margin-top: 0px;    
+}
+
+.startSpan{
+    color:white;
+    float: right;
+    justify-content: right;
+}
+.start{
+    margin-top: 0px;
+    width: 50%;
+    float: right;
+    display: flex;
+    justify-content: left;
+}
+.reset{
+    width: 50%;
+    float: right;
+    display: flex;
+    justify-content: right;
+    margin-top: 0px;
+}
+.controls{
+    float: right;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    display:inline;
+}
+
+.display{
+font-size: large;
+font-family: sans-serif;
+display: inline;
+float: right;
+margin-top: 0px;
+width: 150px;
+
+
+
+
+} 
+.display h3{
+    width: 50px;
+    margin: 0px;
+    border: 0px;
+    display: inline;
+}
+
+.minutes{
+    color: white;
+    }
+.seconds{
+    color: white;
+    }
+.centiseconds{
+    color: black;
+    }
+
+

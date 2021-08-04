@@ -1,0 +1,18 @@
+.recovery_elements{
+    margin-top: 100px;
+}
+.start_recovery_btn{
+    color:wheat;
+    float: right;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 100px;
+    background: transparent;
+
+
+    border-radius: 10%;
+    border-style:hidden;
+
+}

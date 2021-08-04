@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/mainWindow.css" type="text/css" />
+    <!---<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+    <!--- <script data-main="main" src="require.js"></script> -->
+
+    
+    <title>Smart Mirror</title>
+    
+
+</head>
+<body>
+    <div class="hero">
+    
+        <div class="form-box">
+
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log-in</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+
+            <form  id="login" class="input-group">
+                    
+                <input id="UserNameLog" class="input-Field" placeholder="User Name" required> <div id="status"></div>
+                
+                <input type="password" id="PasswordLog" class="input-Field" placeholder="Password" required>
+            
+                <input id="loginBtn" type="submit" class="submit" value="START YOUR RECOVERY" href="../appWindow.html">
+
+            </form>
+
+            <form id="register" class="input-group">
+                
+                <input id="FirstName" class="input-Field" placeholder="First Name" required>
+                
+                
+                <input id="LastName" class="input-Field" placeholder="Last Name" required>
+
+                <input id="UserName" class="input-Field" placeholder="User Name" required>
+               
+                <input type="password" id="Password" class="input-Field" placeholder="Password" required>
+               
+                <input id="CityName" class="input-Field" placeholder="City Name" required>
+                
+                <input id="Age" class="input-Field" placeholder="Age" required>
+                <p>Tip de recuperare:</p>
+                <select id="RecoveryType" class="input-Field" required >
+
+                    <option class="input-Field" value="Genunchi">Genunchi</option>
+                    <option class="input-Field" value="Umar">Umar</option>
+                    <option class="input-Field" value="Clavicula">Clavicula</option>
+                    <option class="input-Field" value="Sold">Sold</option>
+                    
+
+                </select>
+         
+                <input id="registerBtn" type="submit" class="submit" value="CREATE YOUR ACCOUNT" href="../appWindow.html">
+            </form>
+        </div>
+    </div>
+    
+    <script src="JavaScript/register.js"></script>
+    <script src="JavaScript/login.js"></script>
+    <script src="JavaScript/login-register-form.js"></script>
+    <script src="JavaScript/usernameCheck.js"></script>
+  
+            
+</body>
+</html>
