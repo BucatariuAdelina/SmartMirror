@@ -4,7 +4,7 @@ console.log("weather!!");
 
 const getWeatherCondition = async(city) => (
 
-    await fetch(`http://api.weatherstack.com/current?access_key=8f64bde37fd89baf22a414b76253aba0&query=${city}`)
+    await fetch(`http://api.weatherstack.com/(addYourKey)${city}`)
 
     .then(res => res.json())
     .then(data => {
